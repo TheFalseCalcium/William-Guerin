@@ -1,0 +1,96 @@
+﻿@model Laboratoire3_Guitare.Models.Guitar
+
+@{
+
+    ViewBag.Title = "Details";
+    @Styles.Render("~/Content/css")
+    Laboratoire3_Guitare.Models.Seller seller = @Laboratoire3_Guitare.Models.DB.Sellers.Get(Model.SellerId);
+}
+
+
+<div>
+    <div class="detailsBoxHeader">
+
+        <h3>@seller.Name  / @Model.Model</h3>
+
+
+        <a href="/Guitars/Edit/@Model.Id" class="cmdIcon fa fa-edit"></a>
+        <a onclick="bootbox.confirm('Effacer @Model.Model de @seller.Name ?', function (result)
+                   { if (result) window.location.replace('/Guitars/Delete/@Model.Id'); })" class="cmdIcon fa fa-trash"></a>
+        <a href="/Guitars/Index" class="cmdIcon fa fa-arrow-left"></a>
+
+
+
+
+
+    </div>
+
+
+    <div class="containeDetailsGuitar">
+        <img class="previewBig" src="@Model.Image" />
+        <div class="detailsGuitar">
+            <div class="Header">
+                Vendeur: <a href="/Sellers/Details/@seller.Id">@seller.Name</a>
+
+            </div>
+            <hr />
+            <div>
+                <dt>
+                    @Html.DisplayNameFor(model => model.AddDate)
+                </dt>
+
+                <dd>
+                    @Model.AddDate.ToString("dddd d MMMM yyyy", new System.Globalization.CultureInfo("fr-CA"))
+                </dd>
+                <hr />
+            </div>
+
+            <div>
+                <dt>
+                    @Html.DisplayNameFor(model => model.Description)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Description)
+                </dd>
+                <hr />
+            </div>
+
+
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Year)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Year)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.Condition)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Condition)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.GuitarType)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.GuitarType)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Price)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Price) $
+                </dd>
+            </dl>
+        </div>
+
+
+    </div>
+
+</div>
+
+
+

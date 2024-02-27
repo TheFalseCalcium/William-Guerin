@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Laboratoire3_Guitare.Models.Seller>
+
+<h3>Liste de vendeurs</h3>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Phone)
+        </th>
+        <th style="display:flex;justify-content:center;">
+            <div style="flex:1;visibility:hidden;" class="cmdIcon fa fa-eye"></div>
+            <div style="flex:1;visibility:hidden;" class="cmdIcon fa fa-edit"></div>
+            <a style="flex:1;" href="/Sellers/Create" class="cmdIcon fa fa-plus"></a>
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                <a href="mailto:@item.Email">@item.Email</a>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone)
+            </td>
+            <td style="display:flex;justify-content:center;">
+                <a style="flex:1;" href="/Sellers/Details/@item.Id" class="cmdIcon fa fa-eye" />
+                <a style="flex:1;" href="/Sellers/Edit/@item.Id" class="cmdIcon fa fa-edit" />
+                <a onclick="bootbox.confirm('Effacer le vendeur @item.Name ?', function (result)
+                   { if (result) window.location.replace('/Sellers/Delete/@item.Id'); })"
+                   style="flex:1;" id="@item.Id" class="cmdIcon fa fa-trash" />
+            </td>
+        </tr>
+    }
+
+</table>
+
+@*<div class="bootbox modal fade bootbox-confirm show" tabindex="-1" role="dialog" aria-modal="true" style="display: block;">
+    <div class="modal-dialog"><div class="modal-content"><div class="modal-body">
+        <div class="bootbox-body">Effacer Nicolas Chourot?</div></div><div class="modal-footer">
+    <button data-bb-handler="cancel" type="button" class="btn btn-default">Annuler</button>
+        <button data-bb-handler="confirm" type="button" class="btn btn-primary">D'accord</button></div></div></div></div>*@

@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 1,
+    "Name": "Tristan Marcotte",
+    "Email": "eee@ee.ca",
+    "Phone": "(111) 111-1111"
+  },
+  {
+    "Id": 5,
+    "Name": "Amazon",
+    "Email": "Amazon@hotmail.com",
+    "Phone": "(513) 321-5867"
+  },
+  {
+    "Id": 6,
+    "Name": "Dollarama",
+    "Email": "dollarama@hotmail.com",
+    "Phone": "(514) 456-9871"
+  },
+  {
+    "Id": 7,
+    "Name": "William Pro",
+    "Email": "WPro@pro.com",
+    "Phone": "(514) 322-5867"
+  }
+]

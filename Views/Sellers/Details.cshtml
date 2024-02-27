@@ -1,0 +1,49 @@
+﻿@model Laboratoire3_Guitare.Models.Seller
+
+@{
+    ViewBag.Title = "Details";
+    @Styles.Render("~/Content/css")
+}
+
+<div>
+    <div class="detailsBoxHeader">
+
+        <h1> @Html.DisplayFor(model => model.Name)</h1>
+
+
+        <a href="/Sellers/Edit/@Model.Id" class="cmdIcon fa fa-edit"></a>
+        <a onclick="bootbox.confirm('Effacer le vendeur @Model.Name ?', function (result)
+                   { if (result) window.location.replace('/Sellers/Delete/@Model.Id'); })"
+           class="cmdIcon fa fa-trash"></a>
+        <a href="/Sellers/Index" class="cmdIcon fa fa-arrow-left"></a>
+
+
+
+
+
+    </div>
+
+    <hr />
+    <dl class="dl-horizontal">
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            <a href="mailto:@Model.Email">@Model.Email</a>
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Phone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Phone)
+        </dd>
+
+    </dl>
+</div>
+
+
+

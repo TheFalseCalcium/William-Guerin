@@ -1,0 +1,122 @@
+[
+  {
+    "Id": 1,
+    "SellerId": 5,
+    "Maker": "Godin",
+    "Model": "LERXST Limelight Cream w/Floyd Rose",
+    "Image": "/Images_Data/e6793124-bb3d-42c9-86d4-a65674529d4b.jpeg",
+    "Description": "The Lerxst Limelight, a signature guitar created in partnership with iconic rock guitarist Alex Lifeson, thoroughly reimagines Lifeson’s iconic S-type guitar from the 1980s, which became synonymous with Alex’s sounds and guitar style. The Lerxst Limelight was created through the synergy of Godin’s luthier craftsmanship together with modern parts selected by Alex — to create a high-quality, thoroughly modern and refined instrument for today’s player that is anything but a “vintage reissue”.\r\n\r\nThe Lerxst Limelight features a contoured Swamp Ash body for premium comfort, a Hard Rock Maple neck with a 12” radius, an Ebony fretboard, and medium stainless steel frets for fast and intuitive playability. Like Alex’s original modified S-type guitar, this has an HSS pickup configuration for maximum versatility, with pickups custom-wound by Mojotone to Alex’s specifications to ensure balanced performance in all pickup positions, and monster tone. Players have a choice of the classic Floyd Rose tremolo system or a Vega Trem with 18:1 locking tuners for superior trem performance with rock-solid tuning stability.\r\n\r\nThis guitar will thrill and amaze players.",
+    "Year": 2020,
+    "Condition": 0,
+    "GuitarType": 2,
+    "Price": 1149
+  },
+  {
+    "Id": 2,
+    "SellerId": 5,
+    "Maker": "Yamaha",
+    "Model": "PAC012",
+    "Image": "/Images_Data/444aeac6-b2df-4f91-9a94-5d2ca5f48558.jpeg",
+    "Description": "La guitare Yamaha PAC012 vous présente une qualité de fabrication et de son étonnantes compte tenu de son prix abordable.",
+    "Year": 2023,
+    "Condition": 0,
+    "GuitarType": 2,
+    "Price": 290
+  },
+  {
+    "Id": 3,
+    "SellerId": 1,
+    "Maker": "Godin",
+    "Model": "5th Avenue Archtop || Kingpin P90, Cognac Burst",
+    "Image": "/Images_Data/9fe9df39-5be9-478f-b283-c2cf773163a5.jpeg",
+    "Description": "La Godin 5th Avenue vous ramène à une époque où la guitare acoustique archtop régnait en maître. Avec l'âme d'un archtop des années 1950, la 5ème Avenue est un véritable esprit vintage d'hier avec le niveau de jouabilité moderne d'aujourd'hui. Avec plus de projection et de volume dans les graves/médiums que les guitares acoustiques archtop traditionnelles, le son riche et dynamique de la 5ème Avenue fait de cet instrument sophistiqué un rêve à jouer mais pas un cauchemar pour votre portefeuille. Le Godin 5e Avenue fait désormais du rêve de posséder un archtop nord-américain abordable une réalité ! De l'Alt-Country, du Delta Blues, du Slide, du Jazz au Rock, la 5ème Avenue peut vraiment offrir à la fois acoustique et électrique. Le micro à simple bobinage Godin Kingpin P90 offre tout ce son vintage classique avec présence, clarté et un peu d'attitude pour faire bonne mesure !\r\n\r\nFabriqué à partir de cerisier sauvage canadien, le corps de la 5e Avenue présente un dessus et un dossier arqués moulés ; ainsi qu'un chevalet réglable, des trous en F classiques, une tête profilée brillante, un pickguard flottant et une reliure crème. De plus, la beauté rustique de sa finition polie personnalisée crée un magnifique éclat satiné rappelant le 19e siècle.",
+    "Year": 2021,
+    "Condition": 1,
+    "GuitarType": 1,
+    "Price": 2300
+  },
+  {
+    "Id": 4,
+    "SellerId": 6,
+    "Maker": "Fender",
+    "Model": "Professional II Telecaster Electric Guitar Mercury ",
+    "Image": "/Images_Data/a106bec1-8d7d-4d9f-8f4d-050202724b25.jpeg",
+    "Description": "L'American Professional II Stratocaster de Fender offre plusieurs améliorations par rapport à sa configuration inaugurale. Le corps léger et profilé offre une base tonale bien équilibrée avec une qualité hautement résonnante. La première amélioration majeure de cette guitare électrique solidbody réside dans la sélection des micros. L'American Professional II Stratocaster est équipée d'un trio de micros à simple bobinage V-Mod II qui produisent un son vintage avec des raffinements modernes. Un chevalet trémolo à 2 points amélioré et un bloc en acier laminé à froid se combinent pour vous offrir beaucoup de sustain et de luminosité. D'autres améliorations de performances incluent une articulation de talon profilée, une finition de manche satinée « super naturelle » et une électronique améliorée. Si vous recherchez une guitare avec une voix vintage et une sensation moderne, l'American Professional II Stratocaster mérite votre considération.",
+    "Year": 2023,
+    "Condition": 0,
+    "GuitarType": 2,
+    "Price": 2349
+  },
+  {
+    "Id": 5,
+    "SellerId": 6,
+    "Maker": "WestCreek ",
+    "Model": "333",
+    "Image": "/Images_Data/c7c0cd33-25b3-48d2-b301-1b22b5baa324.jpeg",
+    "Description": "Sillet en os Sillet en os beaucoup plus dense et résistant que les autres types de sillets de guitare. Il transférera les vibrations sonores avec une grande efficacité, sans les absorber.\r\nAlnico Humbucker Deux humbuckers alnico-5 sonnent bien en clean, overdrive et distorsion.\r\nCette guitare électrique WestCreek 333 convient aux débutants et aux guitaristes qui cherchent à élargir leur portefeuille sonore.\r\nFrettes Jumbo moyennes à extrémités arrondies Jouabilité douce et confortable.",
+    "Year": 2019,
+    "Condition": 1,
+    "GuitarType": 2,
+    "Price": 399
+  },
+  {
+    "Id": 6,
+    "SellerId": 5,
+    "Maker": "Ibanez",
+    "Model": "AEG5012 AEG",
+    "Image": "/Images_Data/081fd2e5-7b4c-4ec9-b421-f4f98db22871.jpeg",
+    "Description": "Le petit et simple préampli n'a que deux boutons de contrôle, le volume et la forme. Ce contrôle de tonalité en un coup d'œil offre un son acoustique naturel en position centrale. Il permet aux joueurs d'ajuster facilement la tonalité et leur permet de passer de tonalités basses, grasses et puissantes à un son clair et net tout en ajustant un seul bouton. Un nouveau tuner intégré facile à lire avec écran LCD (affichage à cristaux liquides) est situé sur le préampli.",
+    "Year": 2019,
+    "Condition": 1,
+    "GuitarType": 1,
+    "Price": 153
+  },
+  {
+    "Id": 7,
+    "SellerId": 7,
+    "Maker": "Fender",
+    "Model": "Stratocaster HSS",
+    "Image": "/Images_Data/49c75a44-dfbe-43c4-8399-6e3847cb6540.jpeg",
+    "Description": "Le son inspirant d'une Stratocaster est l'un des fondements de Fender. Doté de ce son classique - haut de gamme semblable à une cloche, médiums percutants et graves robustes, combinés à une articulation cristalline - l'étonnante Player Stratocaster Plus Top regorge de sensations et de style Fender authentiques. Il est prêt à servir votre vision musicale, il est suffisamment polyvalent pour gérer n'importe quel style de musique et constitue la plate-forme idéale pour créer votre propre son.\r\n\r\nRespectant l'héritage de Fender tout en conservant son esprit novateur, le trio de puissance de micros à simple bobinage Player Series est net et articulé - c'est le son authentique de Fender avec une touche moderne. Les contours confortables et la finition lisse du manche en érable en forme de « Modern C » sont idéaux pour presque tous les styles de jeu. En ajoutant une 22ème frette Medium Jumbo à la touche contemporaine à rayon de 9,5 pouces, Fender a facilité votre expression musicale. Le design du trémolo à 2 points mis à jour offre une course plus fluide pour une sensation de jeu améliorée tout en vous offrant une stabilité d'accordage à toute épreuve puisqu'il y a moins de frettes. friction contre les poteaux. Les autres caractéristiques comprennent des commandes principales de volume et de tonalité, un commutateur de micro à 5 positions, un pickguard à 3 plis, un écrou en os synthétique, un arbre à cordes à double aile, des accordeurs scellés et une plaque de manche estampillée \"F\" à quatre boulons qui marque cet instrument comme la vraie affaire - aussi Fender que possible.\r\n\r\nPossédez la scène et créez quelque chose de nouveau avec le Player Stratocaster Plus Top.",
+    "Year": 2022,
+    "Condition": 0,
+    "GuitarType": 2,
+    "Price": 1105
+  },
+  {
+    "Id": 8,
+    "SellerId": 5,
+    "Maker": "Jasmine",
+    "Model": "J-Series",
+    "Image": "/Images_Data/e64aadc7-06ad-4895-8597-70a33fed457e.jpeg",
+    "Description": "POUR LA MUSIQUE EN VOUS Le JM-10 de Jasmine est la combinaison parfaite de portabilité et d'un excellent son acoustique. Prêt à voyager avec vous partout où vous allez, il est doté d'une table en épicéa sélectionné, d'un dos et d'éclisses en sapelli pour un son supérieur et est livré avec un sac de transport de luxe.\r\nSENSATION LISSE ET EXCELLENTE JOUABILITÉ grâce au manche fin et satiné et à la longueur d'échelle courte de 23 3/8″, ce qui le rend tellement amusant à jouer que vous ne voudrez plus jamais le lâcher. En outre, une touche et un chevalet en palissandre, des mécaniques chromées moulées sous pression pour une meilleure stabilité d'accordage.\r\nLe système ADVANCED X BRACING DE JASMINE comprend un motif de renfort en « X » « décalé vers l'avant » qui place les renforts plus près de la rosace, produisant un son plus vivant et plus ouvert avec une définition et des détails de notes améliorés, une stabilité exceptionnelle et un meilleur son.\r\nCORPS DU DREADNOUGHT Le corps du Dreadnought est connu pour son son solide et robuste. Si vous recherchez du volume pour passer à travers le jam, la Dreadnought est la guitare qu'il vous faut ! Enfin, le Jasmine JM-10 présente un superbe plateau au fini brillant.\r\nCORDES DE JAUGE LÉGER EN BRONZE PHOSPHORE pour une meilleure stabilité de l'accordage, des performances dignes de confiance, une résistance à la corrosion et un son cohérent, plein et riche",
+    "Year": 2017,
+    "Condition": 1,
+    "GuitarType": 0,
+    "Price": 400
+  },
+  {
+    "Id": 9,
+    "SellerId": 1,
+    "Maker": "Alvarez",
+    "Model": "RD26SB Dreadnought Regent Series Guitar",
+    "Image": "/Images_Data/04f33348-751f-4ae9-8f2d-b9251654071a.jpeg",
+    "Description": "La guitare d'entrée de gamme. Redéfini.\r\n\r\nLa série Alvarez Regent est une gamme de guitares d'entrée de gamme de haute qualité conçue pour fournir des instruments de valeur avec de nombreuses fonctionnalités et spécifications que vous trouverez dans les modèles Alvarez de niveau professionnel.\r\n\r\nDes composants tels que notre chevalet à deux niveaux, le renfort festonné et l'écrou et la selle en os synthétique PPS fonctionnent ensemble pour générer une excellente réponse et une capacité tonale dynamique, vous offrant une excellente expérience de jeu globale, à chaque fois.\r\n\r\nLes guitares ont un look classique avec une finition brillante de qualité et sont fabriquées à partir de configurations de bois traditionnelles et de composants de haute qualité. La série Regent a été conçue en pensant aux étudiants, avec un profil de manche et un écrou légèrement plus fins, ce qui la rend très facile à tenir et à fretter.\r\n\r\nLa série Regent offre aux nouveaux joueurs une expérience inoubliable avec une guitare amusante à jouer et qui sonne bien. Nous expédions tous les Regents dans un sac de concert de qualité afin que vous puissiez apporter votre guitare aux cours, à l'entraînement ou même à votre premier concert.",
+    "Year": 2024,
+    "Condition": 0,
+    "GuitarType": 0,
+    "Price": 104
+  },
+  {
+    "Id": 10,
+    "SellerId": 6,
+    "Maker": "Ibanez",
+    "Model": "S series S521",
+    "Image": "/Images_Data/ed141c79-67ba-43b1-804e-472ed14152bb.jpeg",
+    "Description": "Avec une paire de humbuckers chauds et un chevalet fixe solide comme le roc, la guitare électrique solidbody Ibanez S521 offre un son agressif avec un sustain qui dure des jours. La commutation à cinq voies vous offre plus de combinaisons tonales que ce que vous obtenez normalement avec une configuration à double humbucker, étendant ainsi la gamme de cet instrument polyvalent. Et si vous êtes un joueur rapide, vous vous sentirez comme chez vous avec le profil de manche élégant Wizard III. Avec une forme de corps confortablement courbée, l'Ibanez S521 est le genre de guitare avec laquelle vous pouvez jouer pendant des heures.\r\n\r\nExplorez diverses options tonales avec une commutation à cinq voies\r\nAlors que vous vous attendez normalement à un commutateur à trois voies avec une guitare à double humbucker, le S521 contient un commutateur à cinq voies pour une gamme tonale supplémentaire. La première position vous donne le humbucker de manche comme vous vous en doutez, tandis que la deuxième position place ses deux bobines dans une configuration parallèle. La troisième position vous donne les deux micros, tandis que la quatrième position vous donne la bobine intérieure de chaque micro. La cinquième position est entièrement composée d'un humbucker chevalet. Les guitaristes de Sweetwater apprécient la variété tonale supplémentaire, et nous savons que vous aussi.\r\n\r\n\r\n\r\nVotre main frettée volera sur ce manche Wizard III\r\nL'un des manches les plus rapides d'Ibanez à ce jour, le manche Wizard III en érable 3 pièces du S521 est un plaisir absolu à jouer. Ce manche fin et ultra confortable vous permet de réaliser facilement des arpèges et des arpèges ultra-rapides, tout en vous offrant la substance dont vous avez besoin pour fretter les accords lorsque vous en avez besoin. Dès la première fois que vous mettrez la main sur le manche Wizard III du S521, vous saurez que vous avez une guitare conçue pour la performance.\r\n\r\nSon à indice d'octane élevé provenant de doubles humbuckers quantiques\r\nLe S521 contient une paire de leurs populaires humbuckers Quantum, exprimés différemment pour une plage tonale maximale. Le humbucker en position chevalet est conçu pour des accords agressifs et un travail rythmique, tandis que le humbucker manche est un brillant micro lead : chaud, mais grondant avec une sortie médium améliorée lorsque vous le poussez. En bout de ligne ? Si vous recherchez un son agressif avec du caractère, alors l'Ibanez S521 donnera à votre amplificateur ce dont vous avez besoin.",
+    "Year": 2020,
+    "Condition": 1,
+    "GuitarType": 2,
+    "Price": 756
+  }
+]

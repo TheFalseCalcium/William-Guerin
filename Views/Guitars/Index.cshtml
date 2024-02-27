@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Laboratoire3_Guitare.Models.Guitar>
+  
+
+@{
+    ViewBag.Title = "Index";
+
+}
+
+<div class="HeaderGrid">
+    <h2>Guitares à vendres</h2>
+    <a href="/Guitars/Create" class="cmdIcon fa fa-plus"></a>
+</div>
+<hr />
+
+<div class="thumbnailListContainer">    
+        @foreach (var item in Model)
+        {
+            <div class="thumbnailContainer">
+                <p class="thumbnailHeader">@item.Maker</p>
+                <a href="/Guitars/Details/@item.Id"><img class="thumbnail" src="@item.Image" /> </a>
+            </div>
+        }
+</div>
+
